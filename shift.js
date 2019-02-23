@@ -5,9 +5,11 @@ for (var i = 0; i < arr.length; i++) {
 	if (arr[i] === arr[i + 1]) {
 		var sum = arr[i] + arr[i + 1];
 		if ((i - 1 >= 0) && (sum === arr[i - 1])) {
-
+			//left
 		} else if ((i + 2 < arr.length) && (sum === arr[i + 2])) {
-			
+			//right
+		} else {
+			//left
 		}
 	}
 }
